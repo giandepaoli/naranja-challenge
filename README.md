@@ -18,6 +18,12 @@ Finalmente, podemos correr todos nuestros testeos con el comando
 ```
 npm test
 ```
+
+Si se desea correr algún testeo en particular se puede realizar como
+```
+npm test -- <fileName> --verbose
+```
+
 ## Primera tarea
 Escribir una función que devuelva todos los números primos anteriores al número pasado por parámetro.
 
@@ -47,3 +53,17 @@ Ejemplos:
 - Si el número ingresado es 15859 entonces la función deberá retornar el número 1859.
 - Si el número ingresado es el -5752 entonces la función deberá retornar el número -572.
 - Si el número ingresado es el -5000 entonces la función deberá retornar 0.
+
+## Tercera tarea
+Escribir una función que recibe un par de llave-valor (por ejemplo: { 3.5: 40 }) donde la llave es la nota y el valor es el porcentaje de la respectiva nota. La función retorna un objeto con dos propiedades:
+- *accumulatedPercentage* es igual a la suma de todos los porcentajes
+- *accumulatedNote* es igual a la suma de los productos de las notas con su respectivo porcentaje
+
+Requerimientos:
+- La función solo debe aceptar objetos. Arrays no estan permitidos.
+- Llaves o valores *null*, *undefined* o vacíos no estan permitidos.
+- Cada llave debe ser un número mayor que cero pero menor que cinco.
+- Cada valor debe ser un número mayor que cero pero menor que cien.
+- La suma total de valores no puede superar el cien.
+- La salida debe ser si o si, un objeto con las propiedades *accumulatedPercentage* y *accumulatedNote* .
+- Existirán errores particulares según las pruebas a realizar.
