@@ -9,10 +9,12 @@ Las diferentes funciones creadas fueron utilizadas para correr testeos predefini
 
 # How to run
 
-Para poder ejecutar el siguiente código, es necesario previamente poseer el entorno de ejecución de *Node.JS* (estas pruebas se corrieron bajo la versión 14.17.5)
+Para poder ejecutar el siguiente código, es necesario previamente poseer el entorno de ejecución de [*Node.JS*](https://nodejs.org/es/) (estas pruebas se corrieron bajo la versión 14.17.5)
 
 Una vez clonado el repositorio, instalaremos todas las dependencias ejecutando
 
 ```
 npm install
 ```
+
+Finalmente, podemos correr 
