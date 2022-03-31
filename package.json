@@ -1,0 +1,22 @@
+{
+  "name": "naranja-challenge",
+  "version": "1.0.0",
+  "description": "Task provided via Codility from NaranjaX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giandepaoli/naranja-challenge.git"
+  },
+  "author": "Gianfranco Depaoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giandepaoli/naranja-challenge/issues"
+  },
+  "homepage": "https://github.com/giandepaoli/naranja-challenge#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
