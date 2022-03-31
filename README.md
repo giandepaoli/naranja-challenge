@@ -17,4 +17,27 @@ Una vez clonado el repositorio, instalaremos todas las dependencias ejecutando
 npm install
 ```
 
-Finalmente, podemos correr 
+Finalmente, podemos correr todos nuestros testeos con el comando
+```
+npm test
+```
+
+* * *
+## Primera tarea
+
+Escribir una function que devuelva todos los números primos anteriores al número pasado por parámetro.
+
+Prueba 1:
+
+- Input: 30
+- Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+Prueba 2:
+
+- Input: 5
+- Output: [2, 3]
+
+Prueba 3:
+
+- Input: 0
+- Output: []
