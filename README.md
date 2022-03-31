@@ -21,8 +21,6 @@ Finalmente, podemos correr todos nuestros testeos con el comando
 ```
 npm test
 ```
-
-* * *
 ## Primera tarea
 
 Escribir una function que devuelva todos los números primos anteriores al número pasado por parámetro.
