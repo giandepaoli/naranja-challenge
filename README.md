@@ -5,8 +5,6 @@ Se me solicitó la resolución de tres tareas utilizando código en *Javascript*
 
 Las diferentes funciones creadas fueron utilizadas para correr testeos predefinidos con *Jest*, los cuales se intentarán reproducir de la forma más cercana a la planteada dentro de la plataforma de *Codility*.
 
-* * *
-
 # Como correr
 
 Para poder ejecutar el siguiente código, es necesario previamente poseer el entorno de ejecución de [*Node.JS*](https://nodejs.org/es/) (estas pruebas se corrieron bajo la versión 14.17.5)
